@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌦️ATMOSPHERO- Weather app</title>
+    <link rel="stylesheet" href="./static/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width: 550px)"
+      href="./static/phone.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="search-box">
+          <input type="text" placeholder="Enter city name" spellcheck="false" />
+          <button><img src="IMG/search.png" alt="" /></button>
+        </div>
+
+        <div class="error">
+          <p>Invaild city name</p>
+        </div>
+        <div class="weather">
+          <img class="weather-icon" src="IMG/clear.png" alt="weather-icon" />
+          <h1 class="temp w3-sofia">22°C</h1>
+          <h2 class="city w3-sofia">New York</h2>
+
+          <div class="details">
+            <div class="col">
+              <div>
+                <img src="IMG/humidity.png" alt="" />
+              </div>
+              <div>
+                <p class="humidity w3-sofia">50%</p>
+                <p class="w3-sofia col-p">Humidity</p>
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <img src="IMG/wind.png" alt="" />
+              </div>
+              <div class="comman">
+                <p class="wind w3-sofia">15 km/h</p>
+                <p class="w3-sofia col-p">Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./static/index.js"></script>
+  </body>
+</html>

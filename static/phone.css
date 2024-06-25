@@ -1,0 +1,78 @@
+
+.container ::before {
+  content: "";
+  position: absolute;
+  background-image: url("../IMG/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 155%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+.card {
+  width: 80%;
+  max-width: 470px;
+  color: #fff;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.search-box {
+  width: 100%;
+}
+.search-box button {
+  width: 45px;
+  height: 45px;
+}
+.search-box input {
+  padding: 10px 8px;
+  height: 45px;
+  width: 80%;
+}
+.weather h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.weather-icon{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+}
+.col img{
+    width:50px ;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.humidity  , .wind{
+
+    font-size: 20px;
+    margin-top: -6px;
+
+}
+.col-p{
+    font-size: 15px;
+   
+}
